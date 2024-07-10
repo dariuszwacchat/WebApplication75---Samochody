@@ -1,0 +1,171 @@
+﻿
+@{
+    string text = "Jesteś tutaj: ";
+
+    <div class="df centery fs-10" style="color: rgb(100,100,100); margin: 8px 0px;">
+
+        @switch (NI.Navigation)
+        {
+            case Navigation.HomeIndex:
+                <span class="mr-10">@text</span>
+                <span>Home</span>
+                break;
+
+
+
+
+
+
+            case Navigation.AccountChangeEmail:
+                <span class="mr-10">@text</span>
+                <span>Account</span>
+                <div class="arrowNi"></div>
+                <span>Change email</span>
+                break;
+            case Navigation.AccountChangePassword:
+                <span class="mr-10">@text</span>
+                <span>Account</span>
+                <div class="arrowNi"></div>
+                <span>Change password</span>
+                break;
+            case Navigation.AccountEdit:
+                <span class="mr-10">@text</span>
+                <span>Account</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+
+            case Navigation.UsersIndex:
+                <span class="mr-10">@text</span>
+                <span>Konta użytkowników</span>
+                break;
+            case Navigation.UsersCreate:
+                <span class="mr-10">@text</span>
+                <span>Konta użytkowników</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.UsersEdit:
+                <span class="mr-10">@text</span>
+                <span>Konta użytkowników</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+
+            case Navigation.RolesIndex:
+                <span class="mr-10">@text</span>
+                <span>Roles</span>
+                break;
+            case Navigation.RolesCreate:
+                <span class="mr-10">@text</span>
+                <span>Roles</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.RolesEdit:
+                <span class="mr-10">@text</span>
+                <span>Roles</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+
+
+
+
+            case Navigation.KsiazkiIndex:
+                <span class="mr-10">@text</span>
+                <span>Książki</span>
+                break;
+            case Navigation.KsiazkiCreate:
+                <span class="mr-10">@text</span>
+                <span>Książki</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.KsiazkiEdit:
+                <span class="mr-10">@text</span>
+                <span>Książki</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+            case Navigation.KsiazkiZwroc:
+                <span class="mr-10">@text</span>
+                <span>Książki</span>
+                <div class="arrowNi"></div>
+                <span>Zwróć</span>
+                break;
+
+
+
+
+
+
+
+            case Navigation.WypozyczajacyIndex:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczający</span>
+                break;
+            case Navigation.WypozyczajacyCreate:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczający</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.WypozyczajacyEdit:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczający</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+
+
+
+
+            case Navigation.WypozyczeniaIndex:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczenia</span>
+                break;
+            case Navigation.WypozyczeniaCreate:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczenia</span>
+                <div class="arrowNi"></div>
+                <span>Create</span>
+                break;
+            case Navigation.WypozyczeniaEdit:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczenia</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+            case Navigation.WypozyczeniaZwroc:
+                <span class="mr-10">@text</span>
+                <span>Wypożyczenia</span>
+                <div class="arrowNi"></div>
+                <span>Edit</span>
+                break;
+
+
+
+
+
+        }
+
+    </div>
+
+}
